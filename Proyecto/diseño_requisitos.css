@@ -1,0 +1,160 @@
+/* CSS Document */
+body{
+background-color:#CCCCCC;
+}
+.salir{
+position:absolute;
+margin-left:400px;
+margin-top:30px;
+font-size:14px;
+color:#FFFFFF;
+text-align:right;
+font-family:"Trebuchet MS";
+
+}
+
+.cabeza{
+margin-left:-10px;
+margin-top:-10px;
+text-align:center;
+background-color:#0000CC;
+font-family:"Trebuchet MS";
+color:#FFFFFF;
+font-size:24px;
+padding:30px 0px 30px 0px;
+font-weight:bolder;
+
+}
+#menu{
+border:1px;
+padding:400px 100px 400px 100px;
+width:800px;
+background-color:#FFFFFF;
+margin-left:150px;
+
+}
+#menu ul{
+margin:-450px;
+margin-left:-40px;
+padding:50px;
+line-height:20px;
+
+}
+
+#menu li{
+margin:0;
+padding:0;
+list-style:none;
+
+float:left;
+position:relative;
+background-color:#0000CC;
+color:#000000;
+}
+
+#menu ul li a{
+text-align:center;
+font-family:"Trebuchet MS";
+text-decoration:none;
+height:40px;
+width:150px;
+display:block;
+color:#FFFFFF;
+border:solid 1px #FFFFFF;
+text-shadow:1px 1px 1px #000;
+
+font-weight:bold;
+}
+
+#menu ul ul{
+position:absolute;
+visibility:hidden;
+top: 32px;
+}
+
+#menu ul li:hover ul{
+visibility:visible;
+margin:-40px;
+margin-left:-50px;
+}
+#menu ul ul li{
+background:#0000FF;
+}
+
+#menu li:hover{
+background-color:#FFFFFF;
+}
+#menu ul li:hover ul li a:hover{
+background:#000033;
+color:#FFFF00;
+} 
+
+.image{
+font:"Trebuchet MS";
+font-size:36px;
+position:absolute;
+margin-left:260px;
+margin-top:200px;
+border:2px #CCCCCC solid;
+width:300px;
+
+}
+#reno{
+font:Arial, Helvetica, sans-serif;
+font-size:18px;
+position:absolute;
+margin-left:260px;
+margin-top:500px;
+
+}
+.revi{
+font:Arial, Helvetica, sans-serif;
+font-size:18px;
+position:absolute;
+margin-left:260px;
+margin-top:600px;
+
+}
+.dupli{
+font:Arial, Helvetica, sans-serif;
+font-size:18px;
+position:absolute;
+margin-left:260px;
+margin-top:700px;
+}
+.texto{
+color:#333333;
+font-family:"Trebuchet MS";
+position:absolute;
+margin-left:260px;
+margin-top:450px;
+font-size:16px;
+}
+.op{
+
+color:#333333;
+font-family:"Trebuchet MS";
+position:absolute;
+margin-left:280px;
+margin-top:530px;
+font-size:12px;
+}
+.op2{
+
+color:#333333;
+font-family:"Trebuchet MS";
+position:absolute;
+margin-left:280px;
+margin-top:630px;
+font-size:12px;
+}
+
+.op3{
+
+color:#333333;
+font-family:"Trebuchet MS";
+position:absolute;
+margin-left:280px;
+margin-top:730px;
+font-size:12px;
+}

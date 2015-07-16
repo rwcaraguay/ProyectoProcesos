@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<link rel="stylesheet" href="diseñotabla.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+ <link rel="stylesheet" href="style.css">
+ <script src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.cuadro').hide();
+  $("#enlace").click(function(){
+    $(".cuadro").fadeToggle(1000);
+  });
+});
+</script>
+</head>
+
+<body>
+<div class="texto">
+<label>
+Nombres:</br>
+Apellidos:</br>
+Cédula:</br>
+Placas:</br>
+</label>
+<a href="#" id="enlace">VER MULTAS
+<table  class="cuadro" cellpadding="20px"  border="solid">
+<tr >
+<td class="tit" colspan="2" align="center">REPORTE DE MULTAS</td>
+</tr>
+<tr>
+<td>Razón</td>
+<td>Valor</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</table>
+</a>
+</div>
+</body>
+</html>

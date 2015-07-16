@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Consulta de Multas</title>
+<link rel="stylesheet" href="diseño_multas.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+ <link rel="stylesheet" href="style.css">
+ <script src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.tabla').hide();
+  $(".boton").click(function(){
+    $(".tabla").fadeToggle(1000);
+  });
+});
+</script>
+</head>
+
+<body>
+
+<iframe class="tabla" src="tabla.html" width="600" height="250" frameborder="0" scrolling="yes"> </iframe>
+
+
+
+<input class="boton" type="button" value="Consultar"  />
+<form>
+
+
+<div class="cabeza">
+SISTEMA DE MATRICULACIÓN VEHICULAR
+<a class="salir" href="inicio.html">Salir</a>
+</div>
+<img  class="imagen" src="mul.png" />
+
+<img class="et" src="Captura22.jpg" />
+<label class="ins"> Instrucciones</label>
+<label class="texto"> Para consultar las multas ingrese las placas del Vehículo</label>
+<input type="text" height="40px" class="cuadro" name="cedula" /> 
+<div id="menu">
+<ul>
+
+<li><a href="principal.html"> Inicio</a></li>
+<li> <a href="requisitos.html" >Requisitos</a></li>
+<li> <a href="multas.html">Consulta de Multas</a></li>
+<li><a href="fecha.html"> Fecha para revisión Vehicular</a></li>
+
+<li><a href="#">Matricula</a>
+<ul>
+<li> <a href="renovacion.html">Renovación</a></li>
+
+<li> <a href="revision.html">Revisión Anual</a></li>
+<li> <a href="duplicados.html">Duplicados de Matrícula</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+</form>
+</body>
+</html>

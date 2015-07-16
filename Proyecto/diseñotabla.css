@@ -1,0 +1,25 @@
+/* CSS Document */
+table{
+border-collapse:collapse;
+}
+.tit{
+background-color:#CCCCCC;
+left:50px;
+font-size:13px;
+width:400px;
+
+}
+
+td{
+font-family:"Trebuchet MS";
+border:#CCCCCC 1px solid;
+}
+label {
+font-family:"Trebuchet MS";
+font-size:12px;
+}
+a{
+font-family:"Trebuchet MS";
+font-size:12px;
+
+}

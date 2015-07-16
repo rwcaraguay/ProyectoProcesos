@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Requisitos</title>
+<link rel="stylesheet" href="diseño_requisitos.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+ 
+ 
+ <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script>
+    $(document).ready(function(){
+	$('.op').hide();
+        $("#reno").click(function(event){
+            
+			 $('.op').slideDown('show');
+			  
+               $('.op').fadeIn(1500)
+            event.preventDefault();
+        });
+		});
+		</script>
+		
+		<script>
+    $(document).ready(function(){
+	$('.op2').hide();
+        $(".revi").click(function(event){
+            
+			 $('.op2').slideDown('show');
+			  
+               $('.op2').fadeIn(1500)
+            event.preventDefault();
+        });
+		});
+		</script>
+		
+		<script>
+    $(document).ready(function(){
+	$('.op3').hide();
+        $(".dupli").click(function(event){
+            
+			 $('.op3').slideDown('show');
+			  
+               $('.op3').fadeIn(1500)
+            event.preventDefault();
+        });
+		});
+		</script>
+		
+		
+		
+		
+</head>
+
+<body>
+<img class="image" src="req.jpg" width="200" height="200" />
+<label class="texto">Conoce los requisitos para poder realizar el proceso de Matriculación</label>
+
+<a id="reno"href="#">Renovación de Matrícula</a>
+<div class="op">
+- Original de matrícula caducada.<br />
+
+- Original del revisado vehicular aprobado<br />
+
+- Original de SOAT vigente.<br />
+
+- Original de cédula de ciudadanía de quien realiza el trámite.<br />
+</div>
+
+<a class="revi"href="#">Revisión Vehicular</a>
+<div class="op2">
+- Original de matrícula caducada.<br />
+- Original de SOAT vigente.<br />
+- Original de cédula de ciudadanía de quien realiza el trámite.<br />
+</div>
+
+
+<a class="dupli"href="#">Duplicados de Matrícula</a>
+<div class="op3">
+- Original de SOAT, vigente.<br />
+
+- Original de cédula de ciudadanía de quien realiza el trámite.<br />
+
+- Original de matrícula deteriorada parcialmente, vigente. <br />
+</div>
+<form>
+<div class="cabeza">
+SISTEMA DE MATRICULACIÓN VEHICULAR
+<a class="salir" href="inicio.html">Salir</a>
+</div>
+<div id="menu">
+<ul>
+
+
+<li><a href="principal.html"> Inicio</a></li>
+<li> <a href="#" >Requisitos</a></li>
+<li> <a href="multas.html">Consulta de Multas</a></li>
+<li><a href="fecha.html"> Fecha para revisión Vehicular</a></li>
+
+<li><a href="#">Matricula</a>
+<ul>
+<li> <a href="renovacion.html">Renovación</a></li>
+
+<li> <a href="revision.html">Revisión Anual</a></li>
+<li> <a href="duplicados.html">Duplicados de Matrícula</a></li>
+
+</ul>
+</li>
+</ul>
+</div>
+
+
+</form>
+
+        
+</script>
+
+</body>
+</html>
